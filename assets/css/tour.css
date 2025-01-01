@@ -1,0 +1,65 @@
+.tourName,
+.tourDetail {
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.tourDetailCard {
+    background-color: #030922;
+    border: 1px solid #030922;
+    transition: all 0.4s ease;
+}
+
+
+.tourCard:hover .tourName {
+    color: #030922;
+}
+
+.tourCard:hover .tourDetail {
+    color: #030922;
+}
+
+.tourCard:hover .tourDetailCard {
+    background-color: white;
+    border: 1px solid #030922;
+
+}
+
+
+
+
+
+
+
+
+
+input:focus{
+    outline: none;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid #8e8988 !important;
+}
+
+textarea:focus{
+    outline: none;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    background-color: transparent;
+
+}
+
+
+
+::placeholder {
+    color: #3d251e;
+}
+
+
+.contactForm input{
+    border: none;
+    border-bottom: 1px solid #3d251e;
+    border-radius: 0;
+    background-color: #F8F9FA;
+}
+
