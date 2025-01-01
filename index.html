@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>OdessyOne</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/fav.png">
+
+    <!-- Bootstrap CDN CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- playfair font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
+
+    <!-- poppins font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel=" stylesheet" href="assets/css/index.css">
+    <link rel=" stylesheet" href="assets/css/general.css">
+    <link rel=" stylesheet" href="assets/css/tour.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- navigation -->
+    <header id=" header" class="bg-white container-fluid p-0 primary-header d-flex flex-column">
+
+
+        <div class="d-flex justify-content-between align-items-center p-4 p-lg-0">
+            <!-- toggle button -->
+            <button class="mobile-nav-toggle rounded-pill px-3 py-2" aria-controls="primary-navigation"
+                aria-expanded="false">
+                Menu
+            </button>
+
+            <!-- navbar -->
+            <nav class="d-flex align-items-center justify-content-between w-100 gap-5 px-md-5">
+
+                <!-- logo -->
+                <div class="">
+                    <a href="index.html">
+                        <img id="logo" src="assets/img/logo.png" class="img-fluid logo" width="150" alt="">
+                    </a>
+                </div>
+
+                <div id="primary-navigation" data-visible="false" class="primary-navigation">
+
+
+                    <ul class="primary-nav-links m-0 p-3 ulStyle-none">
+                        <li class="mb-3 mb-md-0">
+                            <a href="index.html" class="text-decoration-none active">Home</a>
+                        </li>
+
+                        <li class="mb-3 mb-md-0">
+                            <a href="tours.html" class="text-decoration-none">Tour
+                                Packages</a>
+                        </li>
+
+                        <li class="mb-3 mb-md-0">
+                            <a href="about.html" class="text-decoration-none">About
+                            </a>
+                        </li>
+                        <li class="mb-3 mb-md-0">
+                            <a href="contact.html" class="text-decoration-none">Contact</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+
+                <div id="secondary-navigation" data-visible="false" class="secondary-navigation d-flex gap-3 d-lg-none">
+
+                    <div class="container d-flex h-100">
+                        <div class="row">
+
+
+                            <div class="col-12 mt-4">
+                                <ul class="ulStyle-none">
+                                    <li>
+                                        <p class="text-dark">Connect through Social Media</p>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-6 d-flex align-items-center">
+
+                                <ul class="nav-links ulStyle-none">
+                                    <li class="mb-1">
+                                        <a href="https://www.instagram.com/hiru_withana/" target="_blank"
+                                            class="text-decoration-none fw-bold text-dark">Instagram</a>
+                                    </li>
+
+                                    <li class="mb-1">
+                                        <a href="https://www.facebook.com/HiruSachinthana"
+                                            class="text-decoration-none fw-bold text-dark" target="_blank">Facebook</a>
+                                    </li>
+
+                                    <li class="mb-1">
+                                        <a href="https://www.linkedin.com/in/hirunika-withana-490337175/"
+                                            class="text-decoration-none fw-bold text-dark" target="_blank">Linkedin</a>
+                                    </li>
+
+                                    <li class="mb-1">
+                                        <a href="https://github.com/HiruWithana"
+                                            class="text-decoration-none fw-bold text-dark" target="_blank">Github</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <div class="col-6 d-flex align-items-end">
+                                <!-- <img src="assets/images/sun.gif" class="img-fluid" alt=""> -->
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </nav>
+
+
+        </div>
+
+
+        <!-- blue bar -->
+        <div class="bg-navy text-white text-center p-3 w-100 border-bottom" style="z-index: 2;">
+            <p class="m-0 bannerTxt">Planning a Safari & Beach honeymoon?</p>
+        </div>
+
+
+
+    </header>
+
+
+    <!-- hero section | landing with video -->
+    <div class="container-fluid landingSection p-0">
+
+        <!-- background video -->
+        <video autoplay muted loop playsinline>
+            <source src="assets/img/intro.mp4" type="video/mp4" />
+        </video>
+
+        <!-- hero section content -->
+        <div class="h-100 d-flex align-items-center justify-content-center flex-column p-4">
+
+            <!-- vertical top line -->
+            <div class="border-end topLine"></div>
+
+            <!-- up icon -->
+            <img src="assets/img/up.svg" class="heroIcon mb-4 animateIn delay-1" alt="">
+            <!-- main title -->
+            <h1 class="heroTitle display-4 text-center animateIn delay-2">Discover the Untamed Beauty</h1>
+            <!-- slogan -->
+            <p class="heroText text-center animateIn delay-3">Tailor-Made Holidays and Vacations Across Sri Lanka</p>
+            <!-- CTA Button -->
+            <a href="tours.html" class="heroBtn btn btn-outline-light rounded-0 pxz-5 py-3 animateIn delay-4">Tour
+                Packages</a>
+            <!-- down icon -->
+            <img src="assets/img/down.svg" class="heroIcon mt-4 animateIn delay-5" alt="">
+
+            <div class="border-end bottomLine">
+
+            </div>
+        </div>
+
+
+        <!-- hero section bottom design -->
+        <div class="position-absolute bottom-0 w-100 border-top py-2" style="z-index: 2;">
+
+            <!-- hidden on mobile | visible in large displays -->
+            <div class="d-none d-md-flex justify-content-center gap-5 pt-2">
+                <p class="text-white small mb-1 animateIn delay-6">Local Guides</p>
+                <p class="text-white small mb-1 animateIn delay-7">Best Price Guranteed</p>
+                <p class="text-white small mb-1 animateIn delay-8">5 star reviews</p>
+                <p class="text-white small mb-1 animateIn delay-9">Safety Guranteed</p>
+            </div>
+
+            <!-- hidden on large displays -->
+            <div class="swiper-container heroSwiper d-md-none">
+                <div class="swiper-wrapper d-flex">
+                    <div class="swiper-slide text-center">Local Guides</div>
+                    <div class="swiper-slide text-center">Best Price Guranteed</div>
+                    <div class="swiper-slide text-center">5 Star Reviews</div>
+                    <div class="swiper-slide text-center">Safety Guranteed</div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- intro section -->
+    <div class="container-fluid py-5 px-0">
+        <!-- icon -->
+        <div class="d-flex justify-content-center mb-4 mb-md-5">
+            <img src="assets/img/odessy.png" alt="" width="100">
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <h2 class="font-playfair fw-light text-center w-lg-50 p-3 p-md-0 introTxt">
+                Odessy One is a trusted, Sri Lankan-owned travel company that crafts unforgettable journeys throughout
+                Sri
+                Lanka.
+            </h2>
+        </div>
+
+        <div class="mt-5 d-md-flex gap-4 justify-content-center position-relative">
+
+            <!-- left line -->
+            <div class="d-none d-lg-block"
+                style="width: 18%;background-color: rgb(218, 215, 215);height: 1px;position: absolute;left: 0;top: 50%;">
+            </div>
+            <!-- right line -->
+            <div class="d-none d-lg-block"
+                style="width: 18%;background-color: rgb(218, 215, 215);height: 1px;position: absolute;right: 0;top: 50%;">
+            </div>
+
+            <div class="d-flex gap-4 flex-wrap justify-content-center">
+                <img src="assets/img/point1.png" class="img-fluid w-sm-30 zoomImage" alt="">
+                <img src="assets/img/point2.png" class="img-fluid w-sm-30 zoomImage" alt="">
+                <img src="assets/img/point3.png" class="img-fluid w-sm-30 zoomImage" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- package swiper -->
+    <div class="container py-5">
+
+        <!-- package title -->
+        <div class="pt-5 pb-4 pb-md-5">
+
+            <p class="text-center mb-0 animateIn delay-1">DISCOVER</p>
+
+            <h2 class="font-playfair fw-light text-center display-3 animateIn delay-2">
+                Ceylon Tour Collection
+            </h2>
+
+        </div>
+
+        <div class="d-md-flex gap-4">
+
+            <!-- swiper controls -->
+            <div class="d-flex flex-md-column gap-4 mb-3 mb-md-0">
+                <!-- Previous button -->
+                <div class="swiper-next btn btn-outline-dark rounded-circle p-3 px-4 order-2 order-md-1">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+
+                <!-- next button -->
+                <div class="swiper-pre btn btn-outline-dark rounded-circle p-3 px-4 order-1 order-md-2">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+
+            </div>
+
+            <!-- swiper -->
+            <div class="swiper cafeSwiper" style="z-index: 1;">
+
+                <div class="swiper-wrapper">
+
+                    <!-- Single SLide | ella-->
+                    <div class="swiper-slide position-relative swiper-slide-overlay">
+
+                        <a href="tours/ella.html">
+
+                            <!-- main image -->
+                            <img src="assets/img/tours/ella.jpg" class="img-fluid" alt="">
+
+                            <!-- overlay -->
+                            <div class="swiperOverlay"></div>
+
+                            <!-- content -->
+                            <div class="px-4 pb-2 position-absolute bottom-0 swiperContent">
+                                <h3 class="text-white fw-normal">Ella Nature <br>Escape</h5>
+                                    <h6 class="text-white">A Paradise for Nature Lovers</h6>
+                            </div>
+
+                        </a>
+
+
+                    </div>
+
+                    <!-- Single SLide | kandy -->
+                    <div class="swiper-slide position-relative swiper-slide-overlay">
+
+                        <a href="tours/kandy.html">
+
+                            <!-- main image -->
+                            <img src="assets/img/tours/kandy.jpg" class="img-fluid" alt="">
+
+                            <!-- overlay -->
+                            <div class="swiperOverlay"></div>
+
+                            <div class="px-4 pb-2 position-absolute bottom-0 swiperContent">
+                                <h4 class="text-white fw-normal">Kandy<br>Chronicles</h5>
+                                    <h6 class="text-white">Journey Through Sri Lanka’s Cultural Heart</h6>
+                            </div>
+
+                        </a>
+
+
+                    </div>
+
+                    <!-- Single SLide | galle -->
+                    <div class="swiper-slide position-relative swiper-slide-overlay">
+
+                        <a href="tours/galle.html">
+
+                            <!-- main image -->
+                            <img src="assets/img/tours/galle.jpg" class="img-fluid" alt="">
+
+                            <!-- overlay -->
+                            <div class="swiperOverlay"></div>
+
+                            <div class="px-4 pb-2 position-absolute bottom-0 swiperContent">
+                                <h4 class="text-white fw-normal">Galle<br>Getaway</h5>
+                                    <h6 class="text-white">Explore the Coastal Charm of Galle</h6>
+                            </div>
+
+                        </a>
+
+
+                    </div>
+
+                    <!-- Single SLide | Nuwara eli -->
+                    <div class="swiper-slide position-relative swiper-slide-overlay">
+
+                        <a href="tours/nuwaraeli.html">
+
+                            <!-- main image -->
+                            <img src="assets/img/tours/nuwaraEliya.jpg" class="img-fluid" alt="">
+
+                            <!-- overlay -->
+                            <div class="swiperOverlay"></div>
+
+                            <div class="px-4 pb-2 position-absolute bottom-0 swiperContent">
+                                <h4 class="text-white fw-normal">Nuwara Eliya <br>Highlands</h5>
+                                    <h6 class="text-white">A Retreat in the Misty Hills</h6>
+                            </div>
+
+                        </a>
+
+
+                    </div>
+
+                    <!-- Single SLide | Jaffna-->
+                    <div class="swiper-slide position-relative swiper-slide-overlay">
+
+                        <a href="tours/jaffna.html">
+
+                            <!-- main image -->
+                            <img src="assets/img/tours/jaffna.jpg" class="img-fluid" alt="">
+
+                            <!-- overlay -->
+                            <div class="swiperOverlay"></div>
+
+                            <div class="px-4 pb-2 position-absolute bottom-0 swiperContent">
+                                <h4 class="text-white fw-normal">Jaffna <br>Odyssey</h5>
+                                    <h6 class="text-white">Discover the Hidden Treasures of Sri Lanka’s North</h6>
+                            </div>
+
+                        </a>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- two by two section -->
+    <div class="container-fluid py-md-5 my-5">
+        <div class="row">
+
+            <div class="col-md-6 p-md-5">
+                <div class="p-3 p-md-5 h-100 d-flex flex-column justify-content-center">
+                    <h3 class="h6 fw-light mb-4 animateIn delay-2">EXPAND YOUR SENSES</h3>
+                    <h1 class="font-playfair display-2 lh-1 animateIn delay-3">Wide Open Spaces…</h1>
+                    <p class="fw-light mt-4 lh-lg animateIn delay-3">
+                        Sri Lanka is full of wonders, from its peaceful beaches to its green mountains. Explore tea
+                        plantations, ancient temples, and wildlife in their natural homes. Walk through quiet villages,
+                        enjoy the sound of the ocean, and feel the cool breeze of the highlands. Whether it’s a beach
+                        sunset
+                        or a mountain view, every part of Sri Lanka offers something special for you to enjoy.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6 p-0 image-container image-two">
+                <img src="assets/img/2section1.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- two by two section -->
+    <div class="container-fluid py-md-5 my-5">
+        <div class="row">
+
+            <div class="col-md-6 p-0 image-container image-two order-2 order-md-1">
+                <img src="assets/img/2section2.jpg" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-md-6 p-md-5 order-1 order-md-2">
+                <div class="p-3 p-md-5 h-100 d-flex flex-column justify-content-center">
+                    <h3 class="h6 fw-light mb-4 animateIn delay-2">WILDLIFE</h3>
+                    <h1 class="font-playfair display-2 lh-1 animateIn delay-3">Wildlife roaming free…</h1>
+                    <p class="fw-light mt-4 lh-lg animateIn delay-4">
+                        Many of our tours take you into Sri Lanka’s most renowned wildlife regions, including Yala,
+                        Udawalawe, and Wilpattu National Parks. These parks are home to a diverse collection of
+                        wildlife,
+                        from the Sri Lankan leopard and majestic elephants to colorful bird species and playful monkeys.
+
+                        Explore these amazing ecosystems, where every encounter—whether big or small—offers a glimpse
+                        into
+                        the country’s vibrant biodiversity and the delicate balance of nature.
+
+                        <br>
+                    </p>
+                    <p class="fw-light lh-lg animateIn delay-5">Experience the untamed beauty of Sri Lanka with Odessy
+                        One.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- reviews -->
+    <div class="container py-md-5">
+
+        <!-- package title -->
+        <div class="pt-5 pb-4 pb-md-5">
+
+            <p class="text-center mb-0 animateIn delay-1">REVIEWS</p>
+
+            <h2 class="font-playfair fw-light text-center display-3 animateIn delay-2">
+                From our travellers
+            </h2>
+
+        </div>
+
+        <!-- comment swiper -->
+        <div class="pb-5 mb-5">
+
+            <!-- swiper -->
+            <div class="swiper commentSwiper" style="z-index: 1;">
+
+                <div class="swiper-wrapper">
+
+                    <!-- Single SLide -->
+                    <div class="swiper-slide">
+
+                        <!-- content -->
+                        <div class="p-4">
+
+                            <!-- stars -->
+                            <div class="d-flex gap-1 justify-content-center">
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                            </div>
+
+                            <!-- comments -->
+                            <p class="text-center fw-light mt-4">I loved the Jaffna tour! It was a part of Sri Lanka I’d
+                                never explored before, and Odessy One made it so easy and enjoyable. Definitely a trip
+                                I’ll
+                                never forget.</p>
+
+                            <!-- signature -->
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/img/comments/signature1.png" width="100" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- Single SLide -->
+                    <div class="swiper-slide">
+
+                        <!-- content -->
+                        <div class="p-4">
+
+                            <!-- stars -->
+                            <div class="d-flex gap-1 justify-content-center">
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-regular fa-star-half-stroke text-navy"></i>
+                            </div>
+
+                            <!-- comments -->
+                            <p class="text-center fw-light mt-4">
+                                We had an amazing time on the Kandy tour! The guide was super friendly and
+                                knowledgeable.Thank you, Odessy One!
+                            </p>
+
+                            <!-- signature -->
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/img/comments/signature2.png" width="100" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- Single SLide -->
+                    <div class="swiper-slide">
+
+                        <!-- content -->
+                        <div class="p-4">
+
+                            <!-- stars -->
+                            <div class="d-flex gap-1 justify-content-center">
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                            </div>
+
+                            <!-- comments -->
+                            <p class="text-center fw-light mt-4">
+                                Hands down the best travel company in Sri Lanka! Their attention to detail and
+                                commitment to
+                                customer satisfaction made our trip truly special.
+                            </p>
+
+                            <!-- signature -->
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/img/comments/signature3.png" width="100" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- Single SLide -->
+                    <div class="swiper-slide">
+
+                        <!-- content -->
+                        <div class="p-4">
+
+                            <!-- stars -->
+                            <div class="d-flex gap-1 justify-content-center">
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                                <i class="fa-solid fa-star text-navy"></i>
+                            </div>
+
+                            <!-- comments -->
+                            <p class="text-center fw-light mt-4">
+                                Galle was incredible, and Odessy One’s team made sure we had the best experience.
+                                Everything
+                                from the transportation to the hotel was spot on. A fantastic adventure!
+                            </p>
+
+                            <!-- signature -->
+                            <div class="d-flex justify-content-center">
+                                <img src="assets/img/comments/signature4.png" width="100" alt="">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+            <!-- swiper controls -->
+            <div class="d-flex gap-5 justify-content-center pt-3">
+
+                <!-- next button -->
+                <div class="swiper-pre btn btn-outline-dark rounded-circle p-3 px-4">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+
+                <!-- Previous button -->
+                <div class="swiper-next btn btn-outline-dark rounded-circle p-3 px-4">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <!-- banner section -->
+    <div class="container-fluid bannerSection bg-white">
+
+        <div class="row d-flex align-items-bottom px-5">
+
+            <!-- for alignment purposes only -->
+            <div class="col-xl-8"></div>
+
+
+            <div class="col-xl-4 bg-white p-4 px-md-5">
+                <!-- title -->
+                <h1 class="text-center mb-5 font-playfair text-oak animateIn delay-2">Why Choose OdessyOne</h1>
+
+                <!-- single list of data -->
+                <div class="d-flex gap-4 mb-3">
+                    <!-- icon -->
+                    <div>
+                        <i class="fa-regular fa-heart h3 animateIn"></i>
+                    </div>
+
+                    <!-- info -->
+                    <div>
+                        <h6 class="animateIn delay-2 text-uppercase">Authentic Local Experiences</h6>
+                        <p class="animateIn delay-3 small">
+                            We provide immersive tours that let you experience Sri Lanka like a local.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- single list of data -->
+                <div class="d-flex gap-4 mb-3">
+                    <!-- icon -->
+                    <div>
+                        <i class="fa-regular fa-paper-plane h3 animateIn"></i>
+                    </div>
+
+                    <!-- info -->
+                    <div>
+                        <h6 class="animateIn delay-2 text-uppercase">Diverse Tour Options</h6>
+                        <p class="animateIn delay-3 small">Whether you're seeking adventure, relaxation, or cultural
+                            exploration, we offer a variety of tour packages.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- single list of data -->
+                <div class="d-flex gap-4 mb-3">
+                    <!-- icon -->
+                    <div>
+                        <i class="fa-regular fa-hand-peace h3 animateIn"></i>
+                    </div>
+
+                    <!-- info -->
+                    <div>
+                        <h6 class="animateIn delay-2 text-uppercase">Expert Guides</h6>
+                        <p class="animateIn delay-3 small">Our experienced and passionate guides bring every destination
+                            to
+                            life with fascinating stories and local insights.</p>
+                    </div>
+                </div>
+
+
+                <!-- CAT button -->
+                <div class="mt-5">
+
+                    <a href="tours.html" class="btn btn-outline-dark rounded-0 px-5 py-3 animateIn delay-4 w-100">
+                        Tour Packages
+                    </a>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="container-fluid bg-navy pt-5">
+
+        <!-- LOGO -->
+        <div class="d-flex justify-content-center p-5 lightBorderBottom">
+            <img src="assets/img/logo-white.png" width="300" alt="">
+        </div>
+
+        <!-- Footer Menu -->
+        <div class="container-fluid lightBorderBottom">
+            <div class="container p-5 d-flex justify-content-center">
+
+                <div class="w-lg-60 d-flex flex-column flex-md-row gap-3 flex-wrap justify-content-center">
+                    <a href="#" class="text-decoration-none text-center text-white small mx-3">DESTINATIONS</a>
+                    <a href="#" class="text-decoration-none text-center text-white small mx-3">INSPIRATIONS</a>
+                    <a href="#" class="text-decoration-none text-center text-white small mx-3">ABOUT US</a>
+                    <a href="#" class="text-decoration-none text-center text-white small mx-3">WHY US</a>
+                    <a href="#" class="text-decoration-none text-center text-white small mx-3">CONTACT US</a>
+                    <a href="#" class="text-decoration-none text-center text-white small mx-3">TERMS & CONDITIONS</a>
+                    <a href="#" class="text-decoration-none text-center text-white small mx-3">PRIVACY POLICY</a>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Contact Details -->
+        <div class="container-fluid p-3  lightBorderBottom">
+            <div class="d-md-flex justify-content-center">
+
+                <div class="lightBorderEnd p-4 px-5">
+                    <p class="text-white text-center mb-1">CALL US</p>
+                    <h5 class="text-white text-center">+44 (0) 1235 635749</h5>
+                </div>
+
+                <div class="p-4 px-5">
+                    <p class="text-white text-center mb-1">EMAIL US</p>
+                    <h5 class="text-white text-center">hello@odessy.travel</h5>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="container pt-5">
+            <p class="text-white text-center pb-3">CONNECT THROUGH SOCIAL MEDIA</p>
+            <div class="d-flex justify-content-center gap-5">
+                <i class="fa-brands fa-facebook text-white h5"></i>
+                <i class="fa-brands fa-instagram text-white h5"></i>
+                <i class="fa-brands fa-tiktok text-white h5"></i>
+            </div>
+
+            <div class="py-5 mb-0 mb-md-4">
+                <p class="text-white text-center mb-0 pb-2">©2024 Odessy Travel. All rights Reserved</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- floating footer -->
+    <div class="d-none d-md-block p-3 bg-cream  position-fixed bottom-0 w-100 floatBar" style="z-index: 2;">
+
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <div class="d-flex gap-5">
+                <p class="mb-0 small fw-light">Local Guides</p>
+                <p class="mb-0 small fw-light">Best Price Guaranteed</p>
+                <p class="mb-0 small fw-light">5 star Reviews</p>
+                <p class="mb-0 small fw-light">Safety Guaranteed</p>
+            </div>
+
+            <div class="d-flex gap-5">
+                <a href="tel:555-555-5555" class="mb-0 small fw-light text-decoration-none text-dark">
+                    <i class="fa-solid fa-phone me-1 small"></i>
+                    CALL US
+                </a>
+                <a href="contact.html" class="mb-0 small fw-light text-decoration-none text-dark">
+                    <i class="fa-solid fa-envelope me-1 small"></i>
+                    ENQUIRE
+                </a>
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+    <!-- Bootstrap CDN JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <!-- Gasp CDN -->
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <!-- scroll trigger js -->
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.5/dist/lenis.min.js"></script>
+    <!-- swiper Js vesion 11 -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const lenis = new Lenis()
+
+        lenis.on('scroll', ScrollTrigger.update)
+
+        gsap.ticker.add((time) => {
+            lenis.raf(time * 500)
+        })
+
+        gsap.ticker.lagSmoothing(0)
+    </script>
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/gsap.js"></script>
+    <script src="assets/js/swiper.js"></script>
+
+
+</body>
+
+</html>
